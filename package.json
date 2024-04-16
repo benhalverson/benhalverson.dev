@@ -7,7 +7,7 @@
     "ci": "ng build",
     "build": "ng build && npm run process",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch=false --browsers=ChromeHeadless",
     "serve:ssr:benhalverson": "node dist/benhalverson/server/server.mjs",
     "process": "node ./tools/copy-files.mjs && node ./tools/alter-polyfills.mjs",
     "deploy": "npm run build && wrangler pages deploy dist/cloudflare"
