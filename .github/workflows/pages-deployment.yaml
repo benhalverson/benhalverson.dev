@@ -24,5 +24,7 @@ jobs:
           projectName: benhalverson
           # directory: YOUR_DIRECTORY_OF_STATIC_ASSETS # e.g. 'dist'
           directory: dist/cloudflare
+          workingDirectory: benhalverson
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
+          wranglerVersion: '3'
