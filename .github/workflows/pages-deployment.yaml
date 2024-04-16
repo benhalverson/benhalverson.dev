@@ -10,16 +10,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      # - name: Test
-      #   run: npm test
+      - name: Install
+        run: npm install
+      - name: Test
+        run: npm test
       - name: Build
-        run: npm install && npm run ci
+        run: npm run ci
       - name: Publish
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: YOUR_PROJECT_NAME # e.g. 'my-project'
+          projectName: 'benhalverson' # e.g. 'my-project'
           # directory: YOUR_DIRECTORY_OF_STATIC_ASSETS # e.g. 'dist'
           directory: dist/cloudflare
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
