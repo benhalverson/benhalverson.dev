@@ -10,7 +10,8 @@
     "test": "ng test --watch=false --browsers=ChromeHeadless",
     "serve:ssr:benhalverson": "node dist/benhalverson/server/server.mjs",
     "process": "node ./tools/copy-files.mjs && node ./tools/alter-polyfills.mjs",
-    "deploy": "npm run build && wrangler pages deploy dist/cloudflare"
+    "deploy:local": "npm run build && wrangler pages deploy dist/cloudflare",
+    "deploy:ci": "wrangler pages deploy dist/cloudflare/"
   },
   "private": true,
   "dependencies": {
@@ -46,6 +47,6 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "~5.3.2",
-    "wrangler": "^2.20.2"
+    "wrangler": "3.5.0"
   }
 }

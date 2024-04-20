@@ -15,7 +15,7 @@ jobs:
       # - name: Test
       #   run: npm test
       - name: Build
-        run: npm run ci
+        run: npm run deploy:ci
       - name: Publish
         uses: cloudflare/pages-action@v1.5.0
         with:
