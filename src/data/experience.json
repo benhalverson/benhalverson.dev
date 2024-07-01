@@ -1,0 +1,43 @@
+[
+  {
+    "company": "Aya Healthcare",
+    "position": "Senior Software Engineer",
+    "startDate": "2023-11",
+    "endDate": "present",
+    "location": "San Diego, CA",
+    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
+    "highlights": [
+      "Created custom components using Angular, and Angular Material",
+      "Developed API’s with Django to interact with ML Models on predicting scheduling data.",
+      "Updated codebase to use Docker containers and deployed to Azure VM's and Azure container apps.",
+      "Reduced build time in local development from 40s to 10s"
+    ]
+  },
+  {
+    "company": "Pixability",
+    "position": "Senior Software Engineer",
+    "startDate": "2022-03",
+    "endDate": "2023-06",
+    "location": "Boston, MA",
+    "summary": "Summary 2",
+    "highlights": [
+      "Developed UI for Contextual Segment List Builder, utilizing React, TypeScript, and SCSS",
+      "Created new components for the internal UI library using React, Typescript and SCSS",
+      "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda"
+    ]
+  },
+    {
+    "company": "Accenture",
+    "position": "Senior Software Engineer",
+    "startDate": "2019-03",
+    "endDate": "2021-12",
+    "location": "San Jose, CA",
+    "summary": "Client: Google",
+    "highlights": [
+      "Dashboard app that tracks datacenter alarms/events",
+      "Built an internal tool for marketing to track metadata about large and small events happening within Google.",
+      "Built a new tool for AUP (Abandoned and Unclaimed Property)",
+      "GWT migration to AngularDart for IAM (identity access management)"
+    ]
+  }
+]
