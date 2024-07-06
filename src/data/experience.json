@@ -5,7 +5,7 @@
     "startDate": "2023-11",
     "endDate": "present",
     "location": "San Diego, CA",
-    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
     "highlights": [
       "Created custom components using Angular, and Angular Material",
       "Developed API’s with Django to interact with ML Models on predicting scheduling data.",
@@ -19,7 +19,7 @@
     "startDate": "2022-03",
     "endDate": "2023-06",
     "location": "Boston, MA",
-    "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
     "highlights": [
       "Developed UI for Contextual Segment List Builder, utilizing React, TypeScript, and SCSS",
       "Created new components for the internal UI library using React, Typescript and SCSS",
@@ -32,7 +32,7 @@
     "startDate": "2019-03",
     "endDate": "2021-12",
     "location": "San Jose, CA",
-    "summary": "Client: Google lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "summary": "Worked as a Lead Developer for various projects within Google, utilizing Angular, Dart, and Go.",
     "highlights": [
       "Dashboard app that tracks datacenter alarms/events",
       "Built an internal tool for marketing to track metadata about large and small events happening within Google.",
@@ -46,10 +46,8 @@
     "startDate": "2018-10",
     "endDate": "2018-12",
     "location": "Sunnyvale, CA",
-    "summary": "",
-    "highlights": [
-      ""
-    ]
+    "summary": "Worked on an internal QA knowledge base application.",
+    "highlights": [""]
   },
   {
     "company": "Viscira",
@@ -58,20 +56,16 @@
     "endDate": "2018-05",
     "location": "San Francisco, CA",
     "summary": "",
-    "highlights": [
-      ""
-    ]
+    "highlights": [""]
   },
-{
+  {
     "company": "E*TRADE Financial",
     "position": "Web Developer",
     "startDate": "2016-01",
     "endDate": "2016-09",
     "location": "Menlo Park, CA",
     "summary": "",
-    "highlights": [
-      ""
-    ]
+    "highlights": [""]
   },
   {
     "company": "Freelance",
@@ -80,8 +74,6 @@
     "endDate": "2017-06",
     "location": "Fremont, CA",
     "summary": "",
-    "highlights": [
-      ""
-    ]
+    "highlights": [""]
   }
 ]

@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ExperienceService } from '../experience.service';
-import { NgFor } from '@angular/common';
+import { NgFor, NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, NgFor],
+  imports: [HeaderComponent, FooterComponent, NgFor, NgOptimizedImage],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
