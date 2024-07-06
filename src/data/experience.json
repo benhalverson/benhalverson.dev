@@ -26,7 +26,7 @@
       "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda"
     ]
   },
-    {
+  {
     "company": "Accenture",
     "position": "Senior Software Engineer",
     "startDate": "2019-03",
@@ -38,6 +38,50 @@
       "Built an internal tool for marketing to track metadata about large and small events happening within Google.",
       "Built a new tool for AUP (Abandoned and Unclaimed Property)",
       "GWT migration to AngularDart for IAM (identity access management)"
+    ]
+  },
+  {
+    "company": "Amazon Lab126",
+    "position": "Software Engineer",
+    "startDate": "2018-10",
+    "endDate": "2018-12",
+    "location": "Sunnyvale, CA",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "Viscira",
+    "position": "Web Developer",
+    "startDate": "2017-01",
+    "endDate": "2018-05",
+    "location": "San Francisco, CA",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  },
+{
+    "company": "E*TRADE Financial",
+    "position": "Web Developer",
+    "startDate": "2016-01",
+    "endDate": "2016-09",
+    "location": "Menlo Park, CA",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "Freelance",
+    "position": "Software Engineer",
+    "startDate": "2014-06",
+    "endDate": "2017-06",
+    "location": "Fremont, CA",
+    "summary": "",
+    "highlights": [
+      ""
     ]
   }
 ]
