@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DarkModeService } from './services/dark-mode.service';
 import { CommonModule } from '@angular/common';
+import { KonamiService } from './services/konami.service';
 
 @Component({
   selector: 'app-root',
@@ -15,4 +16,5 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
 
   darkModeService: DarkModeService = inject(DarkModeService);
+  konamiService: KonamiService = inject(KonamiService);
 }
