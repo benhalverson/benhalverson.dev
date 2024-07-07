@@ -39,7 +39,6 @@ export class KonamiService {
 
     const requiredKey = this.konamiCode[this.konamiCodePosition];
 
-    console.log(`Key pressed: ${key}, Required key: ${requiredKey}, Current position: ${this.konamiCodePosition}`);
     if (key === requiredKey) {
       this.konamiCodePosition++;
       if (this.konamiCodePosition === this.konamiCode.length) {
@@ -52,6 +51,4 @@ export class KonamiService {
     this.konamiCodePosition = 0;
     this.router.navigate(['/game']);
   }
-
-
 }
