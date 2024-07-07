@@ -1,4 +1,5 @@
-<app-header></app-header>
-<router-outlet />
-<app-footer></app-footer>
-
+<main class="min-h-screen min-w-full dark:bg-slate-700" [ngClass]="darkModeService.darkModeSignal()">
+  <app-header></app-header>
+  <router-outlet />
+  <app-footer></app-footer>
+</main>
