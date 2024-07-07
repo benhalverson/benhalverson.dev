@@ -19,12 +19,13 @@
       </ul>
     </nav>
 
+
     <button
-      class="flex transition-transform hover:scale-125 align-middle"
-      (click)="darkMode.set(!darkMode())"
-    >
-      <span *ngIf="!darkMode()">Dark</span>
-      <span *ngIf="!darkMode()">Light</span>
-    </button>
+    class="flex transition-transform hover:scale-125 align-middle"
+    (click)="darkMode.set(!darkMode())"
+  >
+    <span *ngIf="!darkMode()" class="material-icons">dark_mode</span>
+    <span *ngIf="darkMode()" class="material-icons">light_mode</span>
+  </button>
   </div>
 </header>
