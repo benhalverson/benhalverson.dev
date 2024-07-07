@@ -1,10 +1,12 @@
-<header class="bg-gray-500 dark:bg-gray-800 shadow dark:shadow-2xl sticky top-0 z-50 px-4">
+<header
+  class="bg-gray-500 dark:bg-gray-800 shadow dark:shadow-2xl sticky top-0 z-50 px-4"
+>
   <div class="container mx-auto flex justify-between items-center py-4">
     <span class="text-white uppercase font-semibold">Ben Halverson</span>
     <nav class="md:flex md:flex-grow justify-center">
       <ul class="flex justify-center space-x-4 text-white">
         <li>
-          <a routerLink="/" class="dark:hover:text-green-500 font-bold ">Home</a>
+          <a routerLink="/" class="dark:hover:text-green-500 font-bold">Home</a>
         </li>
         <li>
           <a routerLink="/resume" class="hover:text-secondary font-bold"
@@ -14,6 +16,11 @@
         <li>
           <a routerLink="/projects" class="hover:text-secondary font-bold"
             >Projects</a
+          >
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:text-secondary font-bold"
+            >Contact</a
           >
         </li>
       </ul>
@@ -26,7 +33,5 @@
 
     <span (click)="toggleDarkMode()" class="material-icons">light_mode</span>
     }
-
-
   </div>
 </header>
