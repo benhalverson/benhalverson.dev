@@ -5,12 +5,13 @@
     "startDate": "2023-11",
     "endDate": "present",
     "location": "San Diego, CA",
-    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
+    "summary": "Polarishealth.ai, an innovative AI company acquired by Aya Healthcare, leveraged cutting-edge natural language processing (NLP) and machine learning technologies to develop AI-powered solutions for healthcare professionals, enhancing patient care and decision-making.",
     "highlights": [
+      "Led UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS.",
       "Created custom components using Angular and Angular Material",
-      "Developed API’s with Django to interact with ML Models on predicting scheduling data.",
-      "Updated codebase to use Docker containers and deployed to Azure VM's and Azure container apps.",
-      "Reduced build time in local development from 40s to 10s"
+      "Integrated new APIs with Django to interact with ML Models on predicting scheduling data.",
+      "Reduced build time in local development from 40s to 10s",
+      "Updated codebase to use Docker containers and deployed to Azure VM's and Azure container apps."
     ]
   },
   {
@@ -19,7 +20,7 @@
     "startDate": "2022-03",
     "endDate": "2023-06",
     "location": "Boston, MA",
-    "summary": "UI development for the Pixability Contextual Segments list builder app, utilizing React, TypeScript, and SCSS",
+    "summary": "Inc. 5000 company whose data and media solutions boost YouTube and CTV presence to deliver impressions that matter. Headquartered in Boston with approximately 100 employees in 2 countries. ",
     "highlights": [
       "Created new components for the internal UI library using React, Typescript and SCSS",
       "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda",
@@ -32,7 +33,7 @@
     "startDate": "2019-03",
     "endDate": "2021-12",
     "location": "San Jose, CA",
-    "summary": "Worked as a Lead Developer for various projects within Google, utilizing Angular, Dart, and Go.",
+    "summary": "Accenture provides innovative consulting and technology solutions for businesses across various industries. Client: Google",
     "highlights": [
       "Dashboard app that tracks datacenter alarms/events",
       "Built an internal tool for marketing to track metadata about large and small events happening within Google.",
@@ -47,7 +48,7 @@
     "endDate": "2018-12",
     "location": "Sunnyvale, CA",
     "summary": "Worked on an internal QA knowledge base application.",
-    "highlights": [""]
+    "highlights": ["Developed an app for their echo devices for the Quality Assurance Tools teams.", "Upgraded Node.js version from v4 to v6 and implemented unit tests."]
   },
   {
     "company": "Viscira",
@@ -55,7 +56,7 @@
     "startDate": "2017-01",
     "endDate": "2018-05",
     "location": "San Francisco, CA",
-    "summary": "",
+    "summary": "Full-service digital marketing and technology firm that provides interactive new-media solutions for the pharmaceutical, biotech, and medical device industries. Listed on Inc. 5000 List of America’s Fastest Growing Private Companies for 4 years in a row.",
     "highlights": [""]
   },
   {
