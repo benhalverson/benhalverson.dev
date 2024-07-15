@@ -7,7 +7,7 @@
     "location": "San Diego, CA",
     "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
     "highlights": [
-      "Created custom components using Angular, and Angular Material",
+      "Created custom components using Angular and Angular Material",
       "Developed API’s with Django to interact with ML Models on predicting scheduling data.",
       "Updated codebase to use Docker containers and deployed to Azure VM's and Azure container apps.",
       "Reduced build time in local development from 40s to 10s"
@@ -19,11 +19,11 @@
     "startDate": "2022-03",
     "endDate": "2023-06",
     "location": "Boston, MA",
-    "summary": "UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS",
+    "summary": "UI development for the Pixability Contextual Segments list builder app, utilizing React, TypeScript, and SCSS",
     "highlights": [
-      "Developed UI for Contextual Segment List Builder, utilizing React, TypeScript, and SCSS",
       "Created new components for the internal UI library using React, Typescript and SCSS",
-      "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda"
+      "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda",
+      "Reduced CI build time from 45min to 5mins"
     ]
   },
   {

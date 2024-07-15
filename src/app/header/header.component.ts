@@ -13,6 +13,9 @@ import { DarkModeService } from '../services/dark-mode.service';
 })
 export class HeaderComponent {
 
+  darkMoodeEnabled = false;
+  projectsEnabled = false;
+
   darkModeService: DarkModeService = inject(DarkModeService);
 
   toggleDarkMode() {
