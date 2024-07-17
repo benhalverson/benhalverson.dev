@@ -47,10 +47,10 @@
     "startDate": "2018-10",
     "endDate": "2018-12",
     "location": "Sunnyvale, CA",
-    "summary": "Worked on an internal QA knowledge base application.",
+    "summary": "As a Software Engineer at Amazon Lab126, I contributed to the development of an internal Quality Assurance (QA) knowledge base application. This role involved enhancing the functionality and performance of tools used by the QA team, focusing on ensuring high-quality software delivery for Amazon’s Echo devices.",
     "highlights": [
-      "Developed an app for their echo devices for the Quality Assurance Tools teams.",
-      "Upgraded Node.js version from v4 to v6 and implemented unit tests."
+      "Successfully upgraded the application’s backend from Node.js version 4 to version 6, which included refactoring the existing codebase to ensure compatibility with the newer version.",
+      "Implemented comprehensive unit tests to enhance the application’s reliability and facilitate easier maintenance and future upgrades. This effort significantly improved the code quality and reduced the occurrence of bugs in production."
     ]
   },
   {
