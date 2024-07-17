@@ -48,7 +48,10 @@
     "endDate": "2018-12",
     "location": "Sunnyvale, CA",
     "summary": "Worked on an internal QA knowledge base application.",
-    "highlights": ["Developed an app for their echo devices for the Quality Assurance Tools teams.", "Upgraded Node.js version from v4 to v6 and implemented unit tests."]
+    "highlights": [
+      "Developed an app for their echo devices for the Quality Assurance Tools teams.",
+      "Upgraded Node.js version from v4 to v6 and implemented unit tests."
+    ]
   },
   {
     "company": "Viscira",
@@ -61,20 +64,24 @@
   },
   {
     "company": "E*TRADE Financial",
-    "position": "Web Developer",
+    "position": "Software Developer",
     "startDate": "2016-01",
     "endDate": "2016-09",
     "location": "Menlo Park, CA",
-    "summary": "",
-    "highlights": [""]
+    "summary": "One of two developers on the options trading team that performed a front-end rewrite for their Options Analyzer. Specifically created the chart portion of the app. Also served as one of two developers that worked on the front end.",
+    "highlights": [
+     "Created two brand new products for the company: (1) Options Income Backtester, and (2) Option Income Finder.",
+     "Rewrote build tooling from Grunt to Gulp.js.",
+     "Leveraged Highcharts charting library for options-related products. "
+  ]
   },
   {
-    "company": "Freelance",
-    "position": "Software Engineer",
-    "startDate": "2014-06",
-    "endDate": "2017-06",
+    "company": "Footprintid.com",
+    "position": "Web Developer",
+    "startDate": "2014-08",
+    "endDate": "2015-02",
     "location": "Fremont, CA",
-    "summary": "",
-    "highlights": [""]
+    "summary": "Footprintid.com is an online service that centralizes your medical records, enabling quick access to health information and facilitating sharing with emergency responders, physicians, family, and friends, akin to having a portable health record.",
+    "highlights": ["Rebuilt their electronic health records web app using Angular.js and Bootstrap 3."]
   }
 ]
