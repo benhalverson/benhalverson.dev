@@ -60,7 +60,14 @@
     "endDate": "2018-05",
     "location": "San Francisco, CA",
     "summary": "Full-service digital marketing and technology firm that provides interactive new-media solutions for the pharmaceutical, biotech, and medical device industries. Listed on Inc. 5000 List of America’s Fastest Growing Private Companies for 4 years in a row.",
-    "highlights": [""]
+    "highlights": [
+      "Designed and developed an internal application that significantly improved efficiency for Product Managers, saving them approximately four hours daily by automating repetitive tasks and streamlining their workflow.",
+      "Built a native iPad application using React Native, specifically for use at a pharmaceutical trade show. The app was instrumental in engaging attendees and showcasing the company’s products and services interactively.",
+      "Created a comprehensive training web application utilizing React and Redux, designed to enhance the skills and knowledge of pharmacy technicians. The app provided interactive training modules, assessments, and progress tracking.",
+      "Developed a Command Line Interface (CLI) tool using Node.js for web application and website crawling. This tool included advanced features such as the ability to take screenshots, aiding in quality assurance and competitive analysis.",
+      "Built several iPad applications using Angular, TypeScript, HTML, SCSS, and Node.js. These apps were tailored to meet various client needs, providing robust and user-friendly interfaces for different business purposes.",
+      "Mentored numerous junior software developers, providing guidance and support in their professional development. This included code reviews, technical training, and career advice, fostering a collaborative and growth-oriented team environment."
+    ]
   },
   {
     "company": "E*TRADE Financial",
@@ -70,10 +77,10 @@
     "location": "Menlo Park, CA",
     "summary": "One of two developers on the options trading team that performed a front-end rewrite for their Options Analyzer. Specifically created the chart portion of the app. Also served as one of two developers that worked on the front end.",
     "highlights": [
-     "Created two brand new products for the company: (1) Options Income Backtester, and (2) Option Income Finder.",
-     "Rewrote build tooling from Grunt to Gulp.js.",
-     "Leveraged Highcharts charting library for options-related products. "
-  ]
+      "Created two brand new products for the company: (1) Options Income Backtester, and (2) Option Income Finder.",
+      "Rewrote build tooling from Grunt to Gulp.js.",
+      "Leveraged Highcharts charting library for options-related products. "
+    ]
   },
   {
     "company": "Footprintid.com",
@@ -82,6 +89,8 @@
     "endDate": "2015-02",
     "location": "Fremont, CA",
     "summary": "Footprintid.com is an online service that centralizes your medical records, enabling quick access to health information and facilitating sharing with emergency responders, physicians, family, and friends, akin to having a portable health record.",
-    "highlights": ["Rebuilt their electronic health records web app using Angular.js and Bootstrap 3."]
+    "highlights": [
+      "Rebuilt their electronic health records web app using Angular.js and Bootstrap 3."
+    ]
   }
 ]
