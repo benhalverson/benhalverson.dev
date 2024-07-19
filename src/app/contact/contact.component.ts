@@ -1,4 +1,5 @@
-import { Component,  OnInit } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 @Component({
   selector: 'app-contact',
   standalone: true,
@@ -8,7 +9,11 @@ import { Component,  OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  constructor(@Inject(PLATFORM_ID) private readonly platformId: Object) { }
+
   ngOnInit(): void {
-    window.location.href = 'https://calendly.com/benhalverson/15min';
+    if (isPlatformBrowser(this.platformId)) {
+      window.location.href = 'https://calendly.com/benhalverson/15min';
+    }
   }
 }
