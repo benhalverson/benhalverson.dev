@@ -1,14 +1,14 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import data from '../data/experience.json';
+import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ExperienceService {
+  constructor(private readonly httpClient: HttpClient) {}
 
-  constructor() { }
-
-  getData() {
-    return data
+  getData(): Observable<any> {
+    return this.httpClient.get('/assets/experience.json');
   }
 }
