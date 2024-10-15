@@ -1,0 +1,96 @@
+[
+  {
+    "company": "Aya Healthcare",
+    "position": "Senior Software Engineer",
+    "startDate": "2023-11",
+    "endDate": "present",
+    "location": "San Diego, CA",
+    "summary": "Polarishealth.ai, an innovative AI company acquired by Aya Healthcare, leveraged cutting-edge natural language processing (NLP) and machine learning technologies to develop AI-powered solutions for healthcare professionals, enhancing patient care and decision-making.",
+    "highlights": [
+      "Led UI development for polarishealth.ai, utilizing Angular, TypeScript, and SCSS.",
+      "Created custom components using Angular and Angular Material",
+      "Integrated new APIs with Django to interact with ML Models on predicting scheduling data.",
+      "Reduced build time in local development from 40s to 10s",
+      "Updated codebase to use Docker containers and deployed to Azure VM's and Azure container apps."
+    ]
+  },
+  {
+    "company": "Pixability",
+    "position": "Senior Software Engineer",
+    "startDate": "2022-03",
+    "endDate": "2023-06",
+    "location": "Boston, MA",
+    "summary": "Inc. 5000 company whose data and media solutions boost YouTube and CTV presence to deliver impressions that matter. Headquartered in Boston with approximately 100 employees in 2 countries. ",
+    "highlights": [
+      "Created new components for the internal UI library using React, Typescript and SCSS",
+      "Integrated Unsplash stock photos API into the core product through backend API development utilizing Node.js, API Gateway and AWS Lambda",
+      "Reduced CI build time from 45min to 5mins"
+    ]
+  },
+  {
+    "company": "Accenture",
+    "position": "Senior Software Engineer",
+    "startDate": "2019-03",
+    "endDate": "2021-12",
+    "location": "San Jose, CA",
+    "summary": "Accenture provides innovative consulting and technology solutions for businesses across various industries. Client: Google",
+    "highlights": [
+      "Dashboard app that tracks datacenter alarms/events",
+      "Built an internal tool for marketing to track metadata about large and small events happening within Google.",
+      "Built a new tool for AUP (Abandoned and Unclaimed Property)",
+      "GWT migration to AngularDart for IAM (identity access management)"
+    ]
+  },
+  {
+    "company": "Amazon Lab126",
+    "position": "Software Engineer",
+    "startDate": "2018-10",
+    "endDate": "2018-12",
+    "location": "Sunnyvale, CA",
+    "summary": "As a Software Engineer at Amazon Lab126, I contributed to the development of an internal Quality Assurance (QA) knowledge base application. This role involved enhancing the functionality and performance of tools used by the QA team, focusing on ensuring high-quality software delivery for Amazon’s Echo devices.",
+    "highlights": [
+      "Successfully upgraded the application’s backend from Node.js version 4 to version 6, which included refactoring the existing codebase to ensure compatibility with the newer version.",
+      "Implemented comprehensive unit tests to enhance the application’s reliability and facilitate easier maintenance and future upgrades. This effort significantly improved the code quality and reduced the occurrence of bugs in production."
+    ]
+  },
+  {
+    "company": "Viscira",
+    "position": "Web Developer",
+    "startDate": "2017-01",
+    "endDate": "2018-05",
+    "location": "San Francisco, CA",
+    "summary": "Full-service digital marketing and technology firm that provides interactive new-media solutions for the pharmaceutical, biotech, and medical device industries. Listed on Inc. 5000 List of America’s Fastest Growing Private Companies for 4 years in a row.",
+    "highlights": [
+      "Designed and developed an internal application that significantly improved efficiency for Product Managers, saving them approximately four hours daily by automating repetitive tasks and streamlining their workflow.",
+      "Built a native iPad application using React Native, specifically for use at a pharmaceutical trade show. The app was instrumental in engaging attendees and showcasing the company’s products and services interactively.",
+      "Created a comprehensive training web application utilizing React and Redux, designed to enhance the skills and knowledge of pharmacy technicians. The app provided interactive training modules, assessments, and progress tracking.",
+      "Developed a Command Line Interface (CLI) tool using Node.js for web application and website crawling. This tool included advanced features such as the ability to take screenshots, aiding in quality assurance and competitive analysis.",
+      "Built several iPad applications using Angular, TypeScript, HTML, SCSS, and Node.js. These apps were tailored to meet various client needs, providing robust and user-friendly interfaces for different business purposes.",
+      "Mentored numerous junior software developers, providing guidance and support in their professional development. This included code reviews, technical training, and career advice, fostering a collaborative and growth-oriented team environment."
+    ]
+  },
+  {
+    "company": "E*TRADE Financial",
+    "position": "Software Developer",
+    "startDate": "2016-01",
+    "endDate": "2016-09",
+    "location": "Menlo Park, CA",
+    "summary": "One of two developers on the options trading team that performed a front-end rewrite for their Options Analyzer. Specifically created the chart portion of the app. Also served as one of two developers that worked on the front end.",
+    "highlights": [
+      "Created two brand new products for the company: (1) Options Income Backtester, and (2) Option Income Finder.",
+      "Rewrote build tooling from Grunt to Gulp.js.",
+      "Leveraged Highcharts charting library for options-related products. "
+    ]
+  },
+  {
+    "company": "Footprintid.com",
+    "position": "Web Developer",
+    "startDate": "2014-08",
+    "endDate": "2015-02",
+    "location": "Fremont, CA",
+    "summary": "Footprintid.com is an online service that centralizes your medical records, enabling quick access to health information and facilitating sharing with emergency responders, physicians, family, and friends, akin to having a portable health record.",
+    "highlights": [
+      "Rebuilt their electronic health records web app using Angular.js and Bootstrap 3."
+    ]
+  }
+]
