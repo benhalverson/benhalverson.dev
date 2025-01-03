@@ -2,11 +2,12 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ExperienceService } from '../experience.service';
-import { NgFor, NgOptimizedImage } from '@angular/common';
+import { NgFor, NgForOf, NgOptimizedImage } from '@angular/common';
 
 @Component({
     selector: 'app-projects',
-    imports: [HeaderComponent, FooterComponent, NgFor, NgOptimizedImage],
+    standalone: true,
+    imports: [NgOptimizedImage],
     templateUrl: './projects.component.html',
     styleUrl: './projects.component.css',
     changeDetection: ChangeDetectionStrategy.OnPush

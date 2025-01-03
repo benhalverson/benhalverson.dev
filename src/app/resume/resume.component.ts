@@ -1,14 +1,13 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { FooterComponent } from '../footer/footer.component';
-import { HeaderComponent } from '../header/header.component';
 import { ExperienceService } from '../experience.service';
 
 @Component({
     selector: 'app-resume',
-    imports: [HeaderComponent, FooterComponent, NgFor],
     templateUrl: './resume.component.html',
-    styleUrl: './resume.component.css'
+    styleUrl: './resume.component.css',
+    standalone: true,
+    imports: [NgFor]
 })
 export class ResumeComponent {
 
