@@ -1,11 +1,10 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 @Component({
-  selector: 'app-contact',
-  standalone: true,
-  imports: [],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css',
+    selector: 'app-contact',
+    imports: [],
+    templateUrl: './contact.component.html',
+    styleUrl: './contact.component.css'
 })
 export class ContactComponent implements OnInit {
 

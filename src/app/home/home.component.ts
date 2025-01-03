@@ -4,11 +4,10 @@ import { FooterComponent } from '../footer/footer.component';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [HeaderComponent, FooterComponent, RouterModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-home',
+    imports: [HeaderComponent, FooterComponent, RouterModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent {}

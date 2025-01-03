@@ -5,12 +5,11 @@ import { ExperienceService } from '../experience.service';
 import { NgFor, NgOptimizedImage } from '@angular/common';
 
 @Component({
-  selector: 'app-projects',
-  standalone: true,
-  imports: [HeaderComponent, FooterComponent, NgFor, NgOptimizedImage],
-  templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-projects',
+    imports: [HeaderComponent, FooterComponent, NgFor, NgOptimizedImage],
+    templateUrl: './projects.component.html',
+    styleUrl: './projects.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProjectsComponent implements OnInit {
 

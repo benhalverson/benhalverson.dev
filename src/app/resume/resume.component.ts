@@ -5,11 +5,10 @@ import { HeaderComponent } from '../header/header.component';
 import { ExperienceService } from '../experience.service';
 
 @Component({
-  selector: 'app-resume',
-  standalone: true,
-  imports: [HeaderComponent, FooterComponent, NgFor],
-  templateUrl: './resume.component.html',
-  styleUrl: './resume.component.css'
+    selector: 'app-resume',
+    imports: [HeaderComponent, FooterComponent, NgFor],
+    templateUrl: './resume.component.html',
+    styleUrl: './resume.component.css'
 })
 export class ResumeComponent {
 
